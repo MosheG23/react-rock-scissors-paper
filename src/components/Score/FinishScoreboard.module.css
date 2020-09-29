@@ -1,0 +1,61 @@
+.score {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 20px 15px;
+    justify-content: center;
+    align-content: center;
+    border: 2px dotted #000;
+    background-color: #f0f0f0;
+}
+
+.badge {
+    border: 1px solid #000;
+    color: #fff;
+    font-size: large;
+}
+
+.currResult {
+    font-size: 30px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    font-size: calc(0.7rem + 0.5vw);
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4c6baf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(0, 217, 255);
+}
+
+.btn:active {
+    background-color: #00aeff;
+    box-shadow: 0 5px rgb(0, 255, 242);
+    transform: translateY(4px);
+}
+
+.gameLogTable {
+    margin: 0 auto;
+    font-size: large;
+}
+
+th {
+    background-color: #00aeff;
+    color: white;
+}

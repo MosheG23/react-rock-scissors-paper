@@ -1,0 +1,17 @@
+.playinghand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.btn {
+    border: none;
+    background: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
