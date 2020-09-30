@@ -16,7 +16,7 @@ const App = () => {
             <Route exact path="/custom" component={CustomizePage} />
           </div>
           <div className={styles.title}>
-            Created by Moshe Gotam &copy;, github
+            Created by Moshe Gotam &copy;
           </div>
         </div>
       </Router>
